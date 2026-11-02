@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "SNAPSHOT"
+          - tag: "master"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7621
